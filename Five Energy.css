@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header a{
+    text-decoration: none;
+    color: black;
+}
+header ul{
+    list-style-type: none;
+}
+nav{
+    overflow: hidden;
+    background-color:azure;
+    position: fixed;
+    width: 100%;
+    margin-bottom: auto;
+    opacity: 1.0; 
+    z-index: 99;
+}
+#logo{
+    width: 18%;
+    border-radius: 80px;
+    overflow: hidden;
+    margin-top: 2px;
+    margin-bottom: -38px;
+    margin-left: 10px;
+    vertical-align: middle;
+    color: black;
+}
+#logo2{
+    width: 45%;
+   
+}
+header li {
+    float: right;
+    font-size: 18px;
+}
+header li a {
+    text-decoration: none;
+    display: block;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    text-align: justify;
+    padding: 0px 15px;
+    color: green;
+   /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+   font-family: 'Comfortaa', cursive;
+}
+footer a{
+    text-decoration: none;
+    color: black;
+}
+footer{
+    display: block;
+
+}
+#contact{
+    margin-top: 15px;
+}
+/*#firsttrait {
+    text-align: center;
+    color: #ffeb00;
+    margin-top: 0px;
+    margin-bottom: -0px;
+    font-family: 'Marck Script', cursive;
+    font-size: 
+}*/
+#compa{
+    margin-top: -75px;
+}
+#section3{
+    margin-top: 100px;
+}
+#formulaire{
+    margin-top: 75px;
+}
+#slogan{
+    text-align: center;
+    color: green;
+    margin-top: 370px;
+    margin-left: -4px;
+    /*font-family: 'Marck Script', cursive;*/
+    font-family: 'Dancing Script', cursive;
+    font-size: 65px;
+}
+element.style {
+    position: relative;
+}
+#imageindex {
+    padding-top: 100px;
+    padding-bottom: -500px;
+    background: url(journee-internationale-du-biodiesel-ecologie-environnement-aident-monde-idees-ecologiques_29120-167.webp) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 475px;
+}
+#imagecompa{
+    padding-top: 100px;
+    padding-bottom: -500px;
+    background: url(used-cooking-oil-stage.webp) no-repeat fixed 50% 50%;
+    background-size: cover;
+    height: 475px;
+}
+#textemytho{
+    text-align: justify;
+    margin:80px;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+h2{
+    text-align: left;
+    color:black;
+    margin-top: 15px;
+    margin-left: 80px;
+    margin-bottom: -30px;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    font-family: 'Comfortaa', cursive;
+    font-size: 25px;
+  }
+  #nature {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px 2.8%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+#namedept {
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+    margin-left: 80px;
+    color: black;
+    text-shadow: none;
+}
+#darius{
+    background-color:azure;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2px 5.8%;
+    font-family: 'Comfortaa', cursive;
+}
+#name{
+    font-weight: bold;
+}
+#footr1{
+    float: left;
+    /*font-weight: bold;
+    /*font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;*/
+    
+    
+    overflow: hidden;
+    margin-top: 2px;
+    margin-bottom: 2px;
+   
+    vertical-align: middle;
+    color:black; 
+    font-size: 16px;
+}
+#footr2{
+margin-left: -70px;
+/*margin-right:30px ;*/
+font-size: 20px;
+font-family: 'Comfortaa', cursive;
+}
+#titext{
+font-size: 16px;
+font-weight: bold;
+font-family: 'Comfortaa', cursive;
+}
+#biodiesel{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#info{
+    text-align: left;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+#copyright{
+text-align: center;
+/*font-weight: bold;*/
+margin-top: 10px;
+margin-left: 22px;
+margin-right: 22px;
+margin-bottom: -5px;
+font-size: 14px;
+}
+#Partenaires7{
+    margin-top: 30px;
+}
+#Partenaires6{
+    margin-top: 5px;
+}
+
+#Partenaires4{
+    margin-top: 25px;
+}
+#Partenaires3{
+    margin-top: 25px;
+}
+#Partenaires2{
+    margin-top: 25px;
+}
+#Partenaires9{
+    margin-left: -10px;
+    
+}
+#Partenaires11{
+    margin-top: -15px;
+}
+#Partenaires13{
+    margin-top: -8px;
+}
+#Partenaires12{
+    margin-top: 15px;
+    margin-left: -15px;
+}
+#Partenaires14{
+    margin-top: 10px;
+}
+#Partenaires15{
+    margin-top: 7px;
+}
+#Partenaires16{
+    margin-top: 15px;
+}
+#digicelfond{
+    margin-left: -10px;
+    margin-top: -25px;
+}
+#total{
+    margin-top: -15px;
+    margin-left: -20px;
+}
+#footr3{
+    margin-right: -5px;
+}
+#imgeindex{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    margin-top: -25px;
+    margin-bottom: -50px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#imgemach{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+#contactss{
+    display: block;
+   
+    margin: auto;
+  }
